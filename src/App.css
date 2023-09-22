@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  border-radius: 50%;
+  width: min(30vw, 15em);
+  height: min(30vw, 15em);
+  box-shadow:
+    0 0 5em #646cff96,
+    0 0.3em 0.6em #99afbba0;
+}
+
+.link {
+  background-color: #8899aa33;
+  text-decoration: none;
+  border-radius: 2em;
+  color: #ffffff;
+  font-size: 1.1em;
+  margin: .5em 0 .5em 1em;
+  text-align: end;
+  display: flex;
+  .text {
+    text-align: end;
+    border-radius: unset;
+    background-color: unset;
+  }
+  .icon {
+    position: static;
+    font-size: 1.4em;
+    opacity: 0.4;
+    background-color: unset;
+    border-radius: unset;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .logo {
+    box-shadow:
+      0 0 5em #646cff26,
+      0 0.3em 0.6em #99afbb30;
+
+  }
+  .link {
+    color: #111111;
+  }
+}

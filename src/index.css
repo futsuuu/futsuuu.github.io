@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap');
+
+:root {
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1f232c;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ecf0f4;
+  }
+}
