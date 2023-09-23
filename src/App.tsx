@@ -1,7 +1,8 @@
 import myLogo from "./assets/icon.png";
 
 import type { IconType } from "react-icons";
-import { SiDiscord, SiGithub, SiZenn } from "react-icons/si";
+import { SiDiscord, SiGithub, SiReddit, SiZenn } from "react-icons/si";
+import { TbBrandMatrix } from "react-icons/tb";
 import { LuAtSign } from "react-icons/lu";
 
 import "./App.css";
@@ -11,7 +12,7 @@ function App() {
     <>
       <img src={myLogo} className="logo" alt="My logo" />
       <h1>@futsuuu</h1>
-      <Link name="Zenn" icon={SiZenn} link="https://zenn.dev/futsuuu" />
+
       <Link name="GitHub" icon={SiGithub} link="https://github.com/futsuuu" />
       <Link
         name="Bluesky"
@@ -22,6 +23,17 @@ function App() {
         name="Discord"
         icon={SiDiscord}
         link="https://discord.com/users/1040812976086724639"
+      />
+      <Link name="Zenn" icon={SiZenn} link="https://zenn.dev/futsuuu" />
+      <Link
+        name="Matrix"
+        icon={TbBrandMatrix}
+        link="https://matrix.to/#/@futsuuu:matrix.org"
+      />
+      <Link
+        name="Reddit"
+        icon={SiReddit}
+        link="https://www.reddit.com/user/futsuuu123"
       />
     </>
   );
