@@ -15,14 +15,18 @@
     0 0.3em 0.6em #99afbba0;
 }
 
-.link {
-  background-color: #8899aa33;
-  text-decoration: none;
+.links {
+  border: 2px solid #8899aa50;
   border-radius: 2em;
-  color: #ffffff;
+}
+
+.link {
+  background-color: #8899aa30;
+  text-decoration: none;
+  border-radius: .4em;
+  color: #eeeeee;
   font-size: 1.1em;
-  margin: .5em 0 .5em 1em;
-  text-align: end;
+  margin: .4em .5em;
   display: flex;
   .text {
     text-align: end;
@@ -36,6 +40,16 @@
     background-color: unset;
     border-radius: unset;
   }
+}
+.link.first {
+  margin-top: 0;
+  border-top-right-radius: 1.5em;
+  border-top-left-radius: 1.5em;
+}
+.link.last {
+  margin-bottom: .5em;
+  border-bottom-right-radius: 1.5em;
+  border-bottom-left-radius: 1.5em;
 }
 
 @media (prefers-color-scheme: light) {
