@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - 'main'
+    paths-ignore:
+      - 'docs/**'
+      - '.github/**'
+      - '!.github/workflows/gh-pages.yml'
 
 permissions:
   contents: read
