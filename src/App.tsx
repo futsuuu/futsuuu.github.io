@@ -3,7 +3,7 @@ import myLogo from "./assets/icon.png";
 import type { IconType } from "react-icons";
 import { SiDiscord, SiGithub, SiReddit, SiZenn } from "react-icons/si";
 import { TbBrandMatrix } from "react-icons/tb";
-import { LuAtSign } from "react-icons/lu";
+import { PiButterflyFill } from "react-icons/pi"
 
 import "./App.css";
 
@@ -16,7 +16,7 @@ function App() {
     },
     {
       name: "Bluesky",
-      icon: LuAtSign,
+      icon: PiButterflyFill,
       link: "https://bsky.app/profile/futsuuu.bsky.social",
     },
     {
